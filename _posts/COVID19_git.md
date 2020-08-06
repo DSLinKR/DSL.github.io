@@ -292,7 +292,7 @@ Case[Case.city == '-'].head()
 ```
 
 
-![png](COVID19_git_files/COVID19_git_33_0.png)
+![png](/images/COVID19_git_files/COVID19_git_33_0.png)
 
 
 
@@ -321,7 +321,7 @@ top10Case = Case[[x in top10case for x in Case.infection_case]]
 ```
 
 
-![png](COVID19_git_files/COVID19_git_35_0.png)
+![png](/images/COVID19_git_files/COVID19_git_35_0.png)
 
 
 
@@ -437,7 +437,7 @@ groupedCase.nlargest(20, 'confirmed').head()
 ```
 
 
-![png](COVID19_git_files/COVID19_git_39_0.png)
+![png](/images/COVID19_git_files/COVID19_git_39_0.png)
 
 
 
@@ -994,7 +994,7 @@ ggplot()
 ```
 
 
-![png](COVID19_git_files/COVID19_git_58_0.png)
+![png](/images/COVID19_git_files/COVID19_git_58_0.png)
 
 
 
@@ -1014,7 +1014,7 @@ ggplot(SeoulInfo)
 ```
 
 
-![png](COVID19_git_files/COVID19_git_59_0.png)
+![png](/images/COVID19_git_files/COVID19_git_59_0.png)
 
 
 
@@ -1341,7 +1341,7 @@ Time = Time.assign(confirmedRatio= lambda x: x['dailyConfirmed'] / x['dialyTeste
 
 
 
-![png](COVID19_git_files/COVID19_git_69_1.png)
+![png](/images/COVID19_git_files/COVID19_git_69_1.png)
 
 
 
@@ -1520,7 +1520,7 @@ label = TimeAge[TimeAge.date=='2020-06-30'].nlargest(11, 'confirmed').age.tolist
 ```
 
 
-![png](COVID19_git_files/COVID19_git_75_0.png)
+![png](/images/COVID19_git_files/COVID19_git_75_0.png)
 
 
 
@@ -1545,7 +1545,7 @@ label = TimeAge[TimeAge.date=='2020-06-30'].nlargest(11, 'deceased').age.tolist(
 ```
 
 
-![png](COVID19_git_files/COVID19_git_76_0.png)
+![png](/images/COVID19_git_files/COVID19_git_76_0.png)
 
 
 
@@ -1715,7 +1715,7 @@ TimeGender['dailyConfirmed'] = dailyConfirmed
 
 
 
-![png](COVID19_git_files/COVID19_git_81_1.png)
+![png](/images/COVID19_git_files/COVID19_git_81_1.png)
 
 
 
@@ -1895,7 +1895,7 @@ TimeProvince['dailyConfirmed'] = dailyConfirmed
 ```
 
 
-![png](COVID19_git_files/COVID19_git_86_0.png)
+![png](/images/COVID19_git_files/COVID19_git_86_0.png)
 
 
 
@@ -1921,7 +1921,7 @@ TimeProvince['dailyConfirmed'] = dailyConfirmed
 ```
 
 
-![png](COVID19_git_files/COVID19_git_87_0.png)
+![png](/images/COVID19_git_files/COVID19_git_87_0.png)
 
 
 
