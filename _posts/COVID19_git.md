@@ -1,7 +1,9 @@
 ---
 title: "EDA with Plotnine"
 date: 2020-07-09
-categories: jekyll update
+classes: wide
+toc: true
+categories: Visualization DataAnalysis
 ---
 
 
