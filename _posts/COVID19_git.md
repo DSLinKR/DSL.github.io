@@ -1,3 +1,10 @@
+---
+title: "EDA with Plotnine"
+date: 2020-07-09
+categories: jekyll update
+---
+
+
 # What is EDA?
 
 탐색적 자료 분석, 시간을 들여 데이터에 대해 하나 하나 뜯어보는 것
