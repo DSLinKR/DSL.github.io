@@ -1,3 +1,11 @@
+---
+title: "Clustering & Association Rule"
+date: 2020-07-16
+classes: wide
+toc: true
+categories: Analysis
+---
+
 # Clustering
 
 
@@ -467,7 +475,7 @@ plt.scatter(ply[col!='yellow'].songs.apply(len), ply[col!='yellow']['like_cnt'],
 
 
 
-![png](AssociationAnalysis_git_files/AssociationAnalysis_git_25_1.png)
+![png](/images/AssociationAnalysis_git_files/AssociationAnalysis_git_25_1.png)
 
 
 
@@ -483,7 +491,7 @@ plt.scatter(ply.songs.apply(len), ply['like_cnt'],c=col)
 
 
 
-![png](AssociationAnalysis_git_files/AssociationAnalysis_git_26_1.png)
+![png](/images/AssociationAnalysis_git_files/AssociationAnalysis_git_26_1.png)
 
 
 like count가 낮은 친구들이 클러스터가 되긴 됐다. 이 친구들이 가지고 있는 노래들의 특징: 인기가 없다?  
@@ -785,7 +793,7 @@ plt.show()
 ```
 
 
-![png](AssociationAnalysis_git_files/AssociationAnalysis_git_60_0.png)
+![png](/images/AssociationAnalysis_git_files/AssociationAnalysis_git_60_0.png)
 
 
 dataset에서 가장 많이 등장한 노래를 보여준다. 우리가 자주 보지 못하던 노래들이다. 아마 특정 DJ가 주로 사용하는 노래이지만 인지도가 없는 노래일 가능성이 높다
@@ -1110,7 +1118,7 @@ draw_graph(rules, 10)
 ```
 
 
-![png](AssociationAnalysis_git_files/AssociationAnalysis_git_67_0.png)
+![png](/images/AssociationAnalysis_git_files/AssociationAnalysis_git_67_0.png)
 
 
 
@@ -1198,7 +1206,7 @@ draw_graph(rules, 20)
 ```
 
 
-![png](AssociationAnalysis_git_files/AssociationAnalysis_git_69_0.png)
+![png](/images/AssociationAnalysis_git_files/AssociationAnalysis_git_69_0.png)
 
 
 like_cnt가 낮은 플레이리스트가 함께 있어 의미있는 정보를 뽑아내지 못한것 같아,like_cnt를 기반으로 다시 연관성 분석을 해보았다.
@@ -1220,7 +1228,7 @@ like_cnt가 낮은 플레이리스트가 함께 있어 의미있는 정보를 �
 
 
 
-![png](AssociationAnalysis_git_files/AssociationAnalysis_git_72_1.png)
+![png](/images/AssociationAnalysis_git_files/AssociationAnalysis_git_72_1.png)
 
 
 
@@ -1779,7 +1787,7 @@ draw_graph(rules2, 20)
 ```
 
 
-![png](AssociationAnalysis_git_files/AssociationAnalysis_git_82_0.png)
+![png](/images/AssociationAnalysis_git_files/AssociationAnalysis_git_82_0.png)
 
 
 support가 매우 낮다. 하지만 인기가 많은 플레이리스트 중 2000년대, 2010년 초반, 2010년 중반 유행했던 여자아이돌 곡과 발라드곡의 연관성 그래프가 그려졌다. 특이한 점이 있다면 응급실을 매개로 2000년대 발라드와 2000년대 아이돌 곡이 묶였다.
