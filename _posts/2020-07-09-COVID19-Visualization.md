@@ -1,5 +1,5 @@
 ---
-title: "EDA with Plotnine"
+title: "COVID 19 EDA with Plotnine"
 date: 2020-07-09
 classes: wide
 toc: true
